@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6C13F5F1DAE40CF00002F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F5E1DAE40CF00002F57 /* main.m */; };
+		E6C13F621DAE40CF00002F57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F611DAE40CF00002F57 /* AppDelegate.m */; };
+		E6C13F651DAE40CF00002F57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F641DAE40CF00002F57 /* ViewController.m */; };
+		E6C13F681DAE40CF00002F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C13F661DAE40CF00002F57 /* Main.storyboard */; };
+		E6C13F6A1DAE40CF00002F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C13F691DAE40CF00002F57 /* Assets.xcassets */; };
+		E6C13F6D1DAE40CF00002F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C13F6B1DAE40CF00002F57 /* LaunchScreen.storyboard */; };
+		E6C13F781DAE40CF00002F57 /* EmployeeDetailsqldbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F771DAE40CF00002F57 /* EmployeeDetailsqldbTests.m */; };
+		E6C13F831DAE40CF00002F57 /* EmployeeDetailsqldbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F821DAE40CF00002F57 /* EmployeeDetailsqldbUITests.m */; };
+		E6C13F911DAE40E400002F57 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C13F901DAE40E400002F57 /* libsqlite3.0.tbd */; };
+		E6C13F941DAE4A8500002F57 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F931DAE4A8500002F57 /* TableViewController.m */; };
+		E6C13F9A1DAE61DF00002F57 /* T_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C13F991DAE61DF00002F57 /* T_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6C13F741DAE40CF00002F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C13F521DAE40CE00002F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C13F591DAE40CE00002F57;
+			remoteInfo = EmployeeDetailsqldb;
+		};
+		E6C13F7F1DAE40CF00002F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6C13F521DAE40CE00002F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C13F591DAE40CE00002F57;
+			remoteInfo = EmployeeDetailsqldb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6C13F5A1DAE40CE00002F57 /* EmployeeDetailsqldb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeDetailsqldb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C13F5E1DAE40CF00002F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6C13F601DAE40CF00002F57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6C13F611DAE40CF00002F57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6C13F631DAE40CF00002F57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6C13F641DAE40CF00002F57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6C13F671DAE40CF00002F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6C13F691DAE40CF00002F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6C13F6C1DAE40CF00002F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6C13F6E1DAE40CF00002F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C13F731DAE40CF00002F57 /* EmployeeDetailsqldbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeDetailsqldbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C13F771DAE40CF00002F57 /* EmployeeDetailsqldbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailsqldbTests.m; sourceTree = "<group>"; };
+		E6C13F791DAE40CF00002F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C13F7E1DAE40CF00002F57 /* EmployeeDetailsqldbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeDetailsqldbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C13F821DAE40CF00002F57 /* EmployeeDetailsqldbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailsqldbUITests.m; sourceTree = "<group>"; };
+		E6C13F841DAE40CF00002F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C13F901DAE40E400002F57 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E6C13F921DAE4A8500002F57 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E6C13F931DAE4A8500002F57 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E6C13F981DAE61DF00002F57 /* T_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T_ViewController.h; sourceTree = "<group>"; };
+		E6C13F991DAE61DF00002F57 /* T_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6C13F571DAE40CE00002F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C13F911DAE40E400002F57 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C13F701DAE40CF00002F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C13F7B1DAE40CF00002F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6C13F511DAE40CE00002F57 = {
+			isa = PBXGroup;
+			children = (
+				E6C13F901DAE40E400002F57 /* libsqlite3.0.tbd */,
+				E6C13F5C1DAE40CF00002F57 /* EmployeeDetailsqldb */,
+				E6C13F761DAE40CF00002F57 /* EmployeeDetailsqldbTests */,
+				E6C13F811DAE40CF00002F57 /* EmployeeDetailsqldbUITests */,
+				E6C13F5B1DAE40CE00002F57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6C13F5B1DAE40CE00002F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C13F5A1DAE40CE00002F57 /* EmployeeDetailsqldb.app */,
+				E6C13F731DAE40CF00002F57 /* EmployeeDetailsqldbTests.xctest */,
+				E6C13F7E1DAE40CF00002F57 /* EmployeeDetailsqldbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6C13F5C1DAE40CF00002F57 /* EmployeeDetailsqldb */ = {
+			isa = PBXGroup;
+			children = (
+				E6C13F601DAE40CF00002F57 /* AppDelegate.h */,
+				E6C13F611DAE40CF00002F57 /* AppDelegate.m */,
+				E6C13F921DAE4A8500002F57 /* TableViewController.h */,
+				E6C13F931DAE4A8500002F57 /* TableViewController.m */,
+				E6C13F631DAE40CF00002F57 /* ViewController.h */,
+				E6C13F641DAE40CF00002F57 /* ViewController.m */,
+				E6C13F981DAE61DF00002F57 /* T_ViewController.h */,
+				E6C13F991DAE61DF00002F57 /* T_ViewController.m */,
+				E6C13F661DAE40CF00002F57 /* Main.storyboard */,
+				E6C13F691DAE40CF00002F57 /* Assets.xcassets */,
+				E6C13F6B1DAE40CF00002F57 /* LaunchScreen.storyboard */,
+				E6C13F6E1DAE40CF00002F57 /* Info.plist */,
+				E6C13F5D1DAE40CF00002F57 /* Supporting Files */,
+			);
+			path = EmployeeDetailsqldb;
+			sourceTree = "<group>";
+		};
+		E6C13F5D1DAE40CF00002F57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6C13F5E1DAE40CF00002F57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6C13F761DAE40CF00002F57 /* EmployeeDetailsqldbTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6C13F771DAE40CF00002F57 /* EmployeeDetailsqldbTests.m */,
+				E6C13F791DAE40CF00002F57 /* Info.plist */,
+			);
+			path = EmployeeDetailsqldbTests;
+			sourceTree = "<group>";
+		};
+		E6C13F811DAE40CF00002F57 /* EmployeeDetailsqldbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6C13F821DAE40CF00002F57 /* EmployeeDetailsqldbUITests.m */,
+				E6C13F841DAE40CF00002F57 /* Info.plist */,
+			);
+			path = EmployeeDetailsqldbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6C13F591DAE40CE00002F57 /* EmployeeDetailsqldb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C13F871DAE40CF00002F57 /* Build configuration list for PBXNativeTarget "EmployeeDetailsqldb" */;
+			buildPhases = (
+				E6C13F561DAE40CE00002F57 /* Sources */,
+				E6C13F571DAE40CE00002F57 /* Frameworks */,
+				E6C13F581DAE40CE00002F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmployeeDetailsqldb;
+			productName = EmployeeDetailsqldb;
+			productReference = E6C13F5A1DAE40CE00002F57 /* EmployeeDetailsqldb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6C13F721DAE40CF00002F57 /* EmployeeDetailsqldbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C13F8A1DAE40CF00002F57 /* Build configuration list for PBXNativeTarget "EmployeeDetailsqldbTests" */;
+			buildPhases = (
+				E6C13F6F1DAE40CF00002F57 /* Sources */,
+				E6C13F701DAE40CF00002F57 /* Frameworks */,
+				E6C13F711DAE40CF00002F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6C13F751DAE40CF00002F57 /* PBXTargetDependency */,
+			);
+			name = EmployeeDetailsqldbTests;
+			productName = EmployeeDetailsqldbTests;
+			productReference = E6C13F731DAE40CF00002F57 /* EmployeeDetailsqldbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6C13F7D1DAE40CF00002F57 /* EmployeeDetailsqldbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C13F8D1DAE40CF00002F57 /* Build configuration list for PBXNativeTarget "EmployeeDetailsqldbUITests" */;
+			buildPhases = (
+				E6C13F7A1DAE40CF00002F57 /* Sources */,
+				E6C13F7B1DAE40CF00002F57 /* Frameworks */,
+				E6C13F7C1DAE40CF00002F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6C13F801DAE40CF00002F57 /* PBXTargetDependency */,
+			);
+			name = EmployeeDetailsqldbUITests;
+			productName = EmployeeDetailsqldbUITests;
+			productReference = E6C13F7E1DAE40CF00002F57 /* EmployeeDetailsqldbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6C13F521DAE40CE00002F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Student-004";
+				TargetAttributes = {
+					E6C13F591DAE40CE00002F57 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E6C13F721DAE40CF00002F57 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6C13F591DAE40CE00002F57;
+					};
+					E6C13F7D1DAE40CF00002F57 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6C13F591DAE40CE00002F57;
+					};
+				};
+			};
+			buildConfigurationList = E6C13F551DAE40CE00002F57 /* Build configuration list for PBXProject "EmployeeDetailsqldb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6C13F511DAE40CE00002F57;
+			productRefGroup = E6C13F5B1DAE40CE00002F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6C13F591DAE40CE00002F57 /* EmployeeDetailsqldb */,
+				E6C13F721DAE40CF00002F57 /* EmployeeDetailsqldbTests */,
+				E6C13F7D1DAE40CF00002F57 /* EmployeeDetailsqldbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6C13F581DAE40CE00002F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C13F6D1DAE40CF00002F57 /* LaunchScreen.storyboard in Resources */,
+				E6C13F6A1DAE40CF00002F57 /* Assets.xcassets in Resources */,
+				E6C13F681DAE40CF00002F57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C13F711DAE40CF00002F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C13F7C1DAE40CF00002F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6C13F561DAE40CE00002F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C13F651DAE40CF00002F57 /* ViewController.m in Sources */,
+				E6C13F621DAE40CF00002F57 /* AppDelegate.m in Sources */,
+				E6C13F5F1DAE40CF00002F57 /* main.m in Sources */,
+				E6C13F941DAE4A8500002F57 /* TableViewController.m in Sources */,
+				E6C13F9A1DAE61DF00002F57 /* T_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C13F6F1DAE40CF00002F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C13F781DAE40CF00002F57 /* EmployeeDetailsqldbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C13F7A1DAE40CF00002F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C13F831DAE40CF00002F57 /* EmployeeDetailsqldbUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6C13F751DAE40CF00002F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6C13F591DAE40CE00002F57 /* EmployeeDetailsqldb */;
+			targetProxy = E6C13F741DAE40CF00002F57 /* PBXContainerItemProxy */;
+		};
+		E6C13F801DAE40CF00002F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6C13F591DAE40CE00002F57 /* EmployeeDetailsqldb */;
+			targetProxy = E6C13F7F1DAE40CF00002F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6C13F661DAE40CF00002F57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6C13F671DAE40CF00002F57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6C13F6B1DAE40CF00002F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6C13F6C1DAE40CF00002F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6C13F851DAE40CF00002F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6C13F861DAE40CF00002F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6C13F881DAE40CF00002F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmployeeDetailsqldb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.EmployeeDetailsqldb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6C13F891DAE40CF00002F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmployeeDetailsqldb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.EmployeeDetailsqldb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6C13F8B1DAE40CF00002F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmployeeDetailsqldbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.EmployeeDetailsqldbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmployeeDetailsqldb.app/EmployeeDetailsqldb";
+			};
+			name = Debug;
+		};
+		E6C13F8C1DAE40CF00002F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmployeeDetailsqldbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.EmployeeDetailsqldbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmployeeDetailsqldb.app/EmployeeDetailsqldb";
+			};
+			name = Release;
+		};
+		E6C13F8E1DAE40CF00002F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmployeeDetailsqldbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.EmployeeDetailsqldbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmployeeDetailsqldb;
+			};
+			name = Debug;
+		};
+		E6C13F8F1DAE40CF00002F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmployeeDetailsqldbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.EmployeeDetailsqldbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmployeeDetailsqldb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6C13F551DAE40CE00002F57 /* Build configuration list for PBXProject "EmployeeDetailsqldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C13F851DAE40CF00002F57 /* Debug */,
+				E6C13F861DAE40CF00002F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C13F871DAE40CF00002F57 /* Build configuration list for PBXNativeTarget "EmployeeDetailsqldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C13F881DAE40CF00002F57 /* Debug */,
+				E6C13F891DAE40CF00002F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C13F8A1DAE40CF00002F57 /* Build configuration list for PBXNativeTarget "EmployeeDetailsqldbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C13F8B1DAE40CF00002F57 /* Debug */,
+				E6C13F8C1DAE40CF00002F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C13F8D1DAE40CF00002F57 /* Build configuration list for PBXNativeTarget "EmployeeDetailsqldbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C13F8E1DAE40CF00002F57 /* Debug */,
+				E6C13F8F1DAE40CF00002F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6C13F521DAE40CE00002F57 /* Project object */;
+}
