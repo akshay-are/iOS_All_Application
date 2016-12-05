@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6F6B87A1DDB2A580035705E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8791DDB2A580035705E /* main.m */; };
+		E6F6B87D1DDB2A580035705E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B87C1DDB2A580035705E /* AppDelegate.m */; };
+		E6F6B8801DDB2A580035705E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B87F1DDB2A580035705E /* ViewController.m */; };
+		E6F6B8831DDB2A580035705E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8811DDB2A580035705E /* Main.storyboard */; };
+		E6F6B8851DDB2A580035705E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8841DDB2A580035705E /* Assets.xcassets */; };
+		E6F6B8881DDB2A580035705E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B8861DDB2A580035705E /* LaunchScreen.storyboard */; };
+		E6F6B8931DDB2A590035705E /* StopwatchAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B8921DDB2A590035705E /* StopwatchAppTests.m */; };
+		E6F6B89E1DDB2A590035705E /* StopwatchAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B89D1DDB2A590035705E /* StopwatchAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6F6B88F1DDB2A590035705E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6F6B86D1DDB2A580035705E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F6B8741DDB2A580035705E;
+			remoteInfo = StopwatchApp;
+		};
+		E6F6B89A1DDB2A590035705E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6F6B86D1DDB2A580035705E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F6B8741DDB2A580035705E;
+			remoteInfo = StopwatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6F6B8751DDB2A580035705E /* StopwatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopwatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F6B8791DDB2A580035705E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6F6B87B1DDB2A580035705E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6F6B87C1DDB2A580035705E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6F6B87E1DDB2A580035705E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6F6B87F1DDB2A580035705E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6F6B8821DDB2A580035705E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6F6B8841DDB2A580035705E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6F6B8871DDB2A580035705E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6F6B8891DDB2A580035705E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F6B88E1DDB2A590035705E /* StopwatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F6B8921DDB2A590035705E /* StopwatchAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchAppTests.m; sourceTree = "<group>"; };
+		E6F6B8941DDB2A590035705E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F6B8991DDB2A590035705E /* StopwatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F6B89D1DDB2A590035705E /* StopwatchAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchAppUITests.m; sourceTree = "<group>"; };
+		E6F6B89F1DDB2A590035705E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6F6B8721DDB2A580035705E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F6B88B1DDB2A590035705E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F6B8961DDB2A590035705E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6F6B86C1DDB2A580035705E = {
+			isa = PBXGroup;
+			children = (
+				E6F6B8771DDB2A580035705E /* StopwatchApp */,
+				E6F6B8911DDB2A590035705E /* StopwatchAppTests */,
+				E6F6B89C1DDB2A590035705E /* StopwatchAppUITests */,
+				E6F6B8761DDB2A580035705E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6F6B8761DDB2A580035705E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B8751DDB2A580035705E /* StopwatchApp.app */,
+				E6F6B88E1DDB2A590035705E /* StopwatchAppTests.xctest */,
+				E6F6B8991DDB2A590035705E /* StopwatchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6F6B8771DDB2A580035705E /* StopwatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B87B1DDB2A580035705E /* AppDelegate.h */,
+				E6F6B87C1DDB2A580035705E /* AppDelegate.m */,
+				E6F6B87E1DDB2A580035705E /* ViewController.h */,
+				E6F6B87F1DDB2A580035705E /* ViewController.m */,
+				E6F6B8811DDB2A580035705E /* Main.storyboard */,
+				E6F6B8841DDB2A580035705E /* Assets.xcassets */,
+				E6F6B8861DDB2A580035705E /* LaunchScreen.storyboard */,
+				E6F6B8891DDB2A580035705E /* Info.plist */,
+				E6F6B8781DDB2A580035705E /* Supporting Files */,
+			);
+			path = StopwatchApp;
+			sourceTree = "<group>";
+		};
+		E6F6B8781DDB2A580035705E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B8791DDB2A580035705E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6F6B8911DDB2A590035705E /* StopwatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B8921DDB2A590035705E /* StopwatchAppTests.m */,
+				E6F6B8941DDB2A590035705E /* Info.plist */,
+			);
+			path = StopwatchAppTests;
+			sourceTree = "<group>";
+		};
+		E6F6B89C1DDB2A590035705E /* StopwatchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6F6B89D1DDB2A590035705E /* StopwatchAppUITests.m */,
+				E6F6B89F1DDB2A590035705E /* Info.plist */,
+			);
+			path = StopwatchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6F6B8741DDB2A580035705E /* StopwatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F6B8A21DDB2A590035705E /* Build configuration list for PBXNativeTarget "StopwatchApp" */;
+			buildPhases = (
+				E6F6B8711DDB2A580035705E /* Sources */,
+				E6F6B8721DDB2A580035705E /* Frameworks */,
+				E6F6B8731DDB2A580035705E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopwatchApp;
+			productName = StopwatchApp;
+			productReference = E6F6B8751DDB2A580035705E /* StopwatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6F6B88D1DDB2A590035705E /* StopwatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F6B8A51DDB2A590035705E /* Build configuration list for PBXNativeTarget "StopwatchAppTests" */;
+			buildPhases = (
+				E6F6B88A1DDB2A590035705E /* Sources */,
+				E6F6B88B1DDB2A590035705E /* Frameworks */,
+				E6F6B88C1DDB2A590035705E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F6B8901DDB2A590035705E /* PBXTargetDependency */,
+			);
+			name = StopwatchAppTests;
+			productName = StopwatchAppTests;
+			productReference = E6F6B88E1DDB2A590035705E /* StopwatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6F6B8981DDB2A590035705E /* StopwatchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F6B8A81DDB2A590035705E /* Build configuration list for PBXNativeTarget "StopwatchAppUITests" */;
+			buildPhases = (
+				E6F6B8951DDB2A590035705E /* Sources */,
+				E6F6B8961DDB2A590035705E /* Frameworks */,
+				E6F6B8971DDB2A590035705E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F6B89B1DDB2A590035705E /* PBXTargetDependency */,
+			);
+			name = StopwatchAppUITests;
+			productName = StopwatchAppUITests;
+			productReference = E6F6B8991DDB2A590035705E /* StopwatchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6F6B86D1DDB2A580035705E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Student-004";
+				TargetAttributes = {
+					E6F6B8741DDB2A580035705E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E6F6B88D1DDB2A590035705E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6F6B8741DDB2A580035705E;
+					};
+					E6F6B8981DDB2A590035705E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6F6B8741DDB2A580035705E;
+					};
+				};
+			};
+			buildConfigurationList = E6F6B8701DDB2A580035705E /* Build configuration list for PBXProject "StopwatchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6F6B86C1DDB2A580035705E;
+			productRefGroup = E6F6B8761DDB2A580035705E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6F6B8741DDB2A580035705E /* StopwatchApp */,
+				E6F6B88D1DDB2A590035705E /* StopwatchAppTests */,
+				E6F6B8981DDB2A590035705E /* StopwatchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6F6B8731DDB2A580035705E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F6B8881DDB2A580035705E /* LaunchScreen.storyboard in Resources */,
+				E6F6B8851DDB2A580035705E /* Assets.xcassets in Resources */,
+				E6F6B8831DDB2A580035705E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F6B88C1DDB2A590035705E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F6B8971DDB2A590035705E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6F6B8711DDB2A580035705E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F6B8801DDB2A580035705E /* ViewController.m in Sources */,
+				E6F6B87D1DDB2A580035705E /* AppDelegate.m in Sources */,
+				E6F6B87A1DDB2A580035705E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F6B88A1DDB2A590035705E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F6B8931DDB2A590035705E /* StopwatchAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F6B8951DDB2A590035705E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F6B89E1DDB2A590035705E /* StopwatchAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6F6B8901DDB2A590035705E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6F6B8741DDB2A580035705E /* StopwatchApp */;
+			targetProxy = E6F6B88F1DDB2A590035705E /* PBXContainerItemProxy */;
+		};
+		E6F6B89B1DDB2A590035705E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6F6B8741DDB2A580035705E /* StopwatchApp */;
+			targetProxy = E6F6B89A1DDB2A590035705E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6F6B8811DDB2A580035705E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6F6B8821DDB2A580035705E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6F6B8861DDB2A580035705E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6F6B8871DDB2A580035705E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6F6B8A01DDB2A590035705E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6F6B8A11DDB2A590035705E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6F6B8A31DDB2A590035705E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StopwatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.StopwatchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6F6B8A41DDB2A590035705E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StopwatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.StopwatchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6F6B8A61DDB2A590035705E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StopwatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.StopwatchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopwatchApp.app/StopwatchApp";
+			};
+			name = Debug;
+		};
+		E6F6B8A71DDB2A590035705E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StopwatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.StopwatchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopwatchApp.app/StopwatchApp";
+			};
+			name = Release;
+		};
+		E6F6B8A91DDB2A590035705E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StopwatchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.StopwatchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StopwatchApp;
+			};
+			name = Debug;
+		};
+		E6F6B8AA1DDB2A590035705E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StopwatchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.StopwatchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StopwatchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6F6B8701DDB2A580035705E /* Build configuration list for PBXProject "StopwatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F6B8A01DDB2A590035705E /* Debug */,
+				E6F6B8A11DDB2A590035705E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F6B8A21DDB2A590035705E /* Build configuration list for PBXNativeTarget "StopwatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F6B8A31DDB2A590035705E /* Debug */,
+				E6F6B8A41DDB2A590035705E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6F6B8A51DDB2A590035705E /* Build configuration list for PBXNativeTarget "StopwatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F6B8A61DDB2A590035705E /* Debug */,
+				E6F6B8A71DDB2A590035705E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6F6B8A81DDB2A590035705E /* Build configuration list for PBXNativeTarget "StopwatchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F6B8A91DDB2A590035705E /* Debug */,
+				E6F6B8AA1DDB2A590035705E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6F6B86D1DDB2A580035705E /* Project object */;
+}
