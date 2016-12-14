@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1D9CAE1DB36BCB00B50C1D /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D9CAD1DB36BCA00B50C1D /* FirstTableViewController.m */; };
+		0C1D9CB11DB36C7500B50C1D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D9CB01DB36C7500B50C1D /* SecondViewController.m */; };
+		0C1D9CB41DB36C8B00B50C1D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D9CB31DB36C8B00B50C1D /* ThirdViewController.m */; };
+		0C1D9CB61DB3701900B50C1D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1D9CB51DB3701900B50C1D /* libsqlite3.0.tbd */; };
 		0C2353CC1DB35291000CB7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2353CB1DB35291000CB7E9 /* main.m */; };
 		0C2353CF1DB35291000CB7E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2353CE1DB35291000CB7E9 /* AppDelegate.m */; };
-		0C2353D21DB35291000CB7E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2353D11DB35291000CB7E9 /* ViewController.m */; };
 		0C2353D51DB35292000CB7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2353D31DB35292000CB7E9 /* Main.storyboard */; };
 		0C2353D71DB35292000CB7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2353D61DB35292000CB7E9 /* Assets.xcassets */; };
 		0C2353DA1DB35292000CB7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2353D81DB35292000CB7E9 /* LaunchScreen.storyboard */; };
 		0C2353E51DB35293000CB7E9 /* MachineTest_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2353E41DB35293000CB7E9 /* MachineTest_1Tests.m */; };
 		0C2353F01DB35293000CB7E9 /* MachineTest_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2353EF1DB35293000CB7E9 /* MachineTest_1UITests.m */; };
+		0CF3F4B01DB38B5700A4F1C8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF3F4AE1DB38B5700A4F1C8 /* TableViewCell.m */; };
+		0CF3F4B11DB38B5700A4F1C8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF3F4AF1DB38B5700A4F1C8 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1D9CAC1DB36BCA00B50C1D /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		0C1D9CAD1DB36BCA00B50C1D /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		0C1D9CAF1DB36C7500B50C1D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0C1D9CB01DB36C7500B50C1D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0C1D9CB21DB36C8B00B50C1D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0C1D9CB31DB36C8B00B50C1D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0C1D9CB51DB3701900B50C1D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0C2353C71DB35291000CB7E9 /* MachineTest-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MachineTest-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2353CB1DB35291000CB7E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C2353CD1DB35291000CB7E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C2353CE1DB35291000CB7E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C2353D01DB35291000CB7E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C2353D11DB35291000CB7E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C2353D41DB35292000CB7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C2353D61DB35292000CB7E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2353D91DB35292000CB7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,9 @@
 		0C2353EB1DB35293000CB7E9 /* MachineTest-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MachineTest-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2353EF1DB35293000CB7E9 /* MachineTest_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachineTest_1UITests.m; sourceTree = "<group>"; };
 		0C2353F11DB35293000CB7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF3F4AD1DB38B5700A4F1C8 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		0CF3F4AE1DB38B5700A4F1C8 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		0CF3F4AF1DB38B5700A4F1C8 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1D9CB61DB3701900B50C1D /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 		0C2353BE1DB35290000CB7E9 = {
 			isa = PBXGroup;
 			children = (
+				0C1D9CB51DB3701900B50C1D /* libsqlite3.0.tbd */,
 				0C2353C91DB35291000CB7E9 /* MachineTest-1 */,
 				0C2353E31DB35293000CB7E9 /* MachineTest-1Tests */,
 				0C2353EE1DB35293000CB7E9 /* MachineTest-1UITests */,
@@ -103,8 +118,15 @@
 			children = (
 				0C2353CD1DB35291000CB7E9 /* AppDelegate.h */,
 				0C2353CE1DB35291000CB7E9 /* AppDelegate.m */,
-				0C2353D01DB35291000CB7E9 /* ViewController.h */,
-				0C2353D11DB35291000CB7E9 /* ViewController.m */,
+				0C1D9CAC1DB36BCA00B50C1D /* FirstTableViewController.h */,
+				0C1D9CAD1DB36BCA00B50C1D /* FirstTableViewController.m */,
+				0C1D9CAF1DB36C7500B50C1D /* SecondViewController.h */,
+				0C1D9CB01DB36C7500B50C1D /* SecondViewController.m */,
+				0C1D9CB21DB36C8B00B50C1D /* ThirdViewController.h */,
+				0C1D9CB31DB36C8B00B50C1D /* ThirdViewController.m */,
+				0CF3F4AD1DB38B5700A4F1C8 /* TableViewCell.h */,
+				0CF3F4AE1DB38B5700A4F1C8 /* TableViewCell.m */,
+				0CF3F4AF1DB38B5700A4F1C8 /* TableViewCell.xib */,
 				0C2353D31DB35292000CB7E9 /* Main.storyboard */,
 				0C2353D61DB35292000CB7E9 /* Assets.xcassets */,
 				0C2353D81DB35292000CB7E9 /* LaunchScreen.storyboard */,
@@ -244,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2353DA1DB35292000CB7E9 /* LaunchScreen.storyboard in Resources */,
+				0CF3F4B11DB38B5700A4F1C8 /* TableViewCell.xib in Resources */,
 				0C2353D71DB35292000CB7E9 /* Assets.xcassets in Resources */,
 				0C2353D51DB35292000CB7E9 /* Main.storyboard in Resources */,
 			);
@@ -270,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C2353D21DB35291000CB7E9 /* ViewController.m in Sources */,
+				0C1D9CB11DB36C7500B50C1D /* SecondViewController.m in Sources */,
+				0CF3F4B01DB38B5700A4F1C8 /* TableViewCell.m in Sources */,
+				0C1D9CAE1DB36BCB00B50C1D /* FirstTableViewController.m in Sources */,
+				0C1D9CB41DB36C8B00B50C1D /* ThirdViewController.m in Sources */,
 				0C2353CF1DB35291000CB7E9 /* AppDelegate.m in Sources */,
 				0C2353CC1DB35291000CB7E9 /* main.m in Sources */,
 			);
@@ -498,6 +524,7 @@
 				0C2353F61DB35293000CB7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2353F71DB35293000CB7E9 /* Build configuration list for PBXNativeTarget "MachineTest-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +533,7 @@
 				0C2353F91DB35293000CB7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2353FA1DB35293000CB7E9 /* Build configuration list for PBXNativeTarget "MachineTest-1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +542,7 @@
 				0C2353FC1DB35293000CB7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

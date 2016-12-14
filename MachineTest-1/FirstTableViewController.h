@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstTableViewController.h
 //  MachineTest-1
 //
 //  Created by KUNAL on 16/10/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FirstTableViewController : UITableViewController
 
+@property(nonatomic,retain)NSMutableArray *arr;
 
 @end
-
