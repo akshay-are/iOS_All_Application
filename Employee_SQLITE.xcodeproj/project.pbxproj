@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3C8F951E30CCDA00F41D68 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C8F941E30CCDA00F41D68 /* TableViewController.m */; };
 		7EE2DA901E30C5F500723B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DA8F1E30C5F500723B88 /* main.m */; };
 		7EE2DA931E30C5F500723B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DA921E30C5F500723B88 /* AppDelegate.m */; };
 		7EE2DA961E30C5F500723B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DA951E30C5F500723B88 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		7EE2DA9E1E30C5F500723B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2DA9C1E30C5F500723B88 /* LaunchScreen.storyboard */; };
 		7EE2DAA91E30C5F600723B88 /* Employee_SQLITETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DAA81E30C5F600723B88 /* Employee_SQLITETests.m */; };
 		7EE2DAB41E30C5F600723B88 /* Employee_SQLITEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2DAB31E30C5F600723B88 /* Employee_SQLITEUITests.m */; };
+		7EE2DAC21E30C66A00723B88 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2DAC11E30C66A00723B88 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3C8F931E30CCDA00F41D68 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7E3C8F941E30CCDA00F41D68 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		7EE2DA8B1E30C5F500723B88 /* Employee_SQLITE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Employee_SQLITE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE2DA8F1E30C5F500723B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EE2DA911E30C5F500723B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		7EE2DAAF1E30C5F600723B88 /* Employee_SQLITEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Employee_SQLITEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE2DAB31E30C5F600723B88 /* Employee_SQLITEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee_SQLITEUITests.m; sourceTree = "<group>"; };
 		7EE2DAB51E30C5F600723B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE2DAC11E30C66A00723B88 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE2DAC21E30C66A00723B88 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		7EE2DA821E30C5F400723B88 = {
 			isa = PBXGroup;
 			children = (
+				7EE2DAC11E30C66A00723B88 /* libsqlite3.0.tbd */,
 				7EE2DA8D1E30C5F500723B88 /* Employee_SQLITE */,
 				7EE2DAA71E30C5F600723B88 /* Employee_SQLITETests */,
 				7EE2DAB21E30C5F600723B88 /* Employee_SQLITEUITests */,
@@ -105,6 +112,8 @@
 				7EE2DA921E30C5F500723B88 /* AppDelegate.m */,
 				7EE2DA941E30C5F500723B88 /* ViewController.h */,
 				7EE2DA951E30C5F500723B88 /* ViewController.m */,
+				7E3C8F931E30CCDA00F41D68 /* TableViewController.h */,
+				7E3C8F941E30CCDA00F41D68 /* TableViewController.m */,
 				7EE2DA971E30C5F500723B88 /* Main.storyboard */,
 				7EE2DA9A1E30C5F500723B88 /* Assets.xcassets */,
 				7EE2DA9C1E30C5F500723B88 /* LaunchScreen.storyboard */,
@@ -273,6 +282,7 @@
 				7EE2DA961E30C5F500723B88 /* ViewController.m in Sources */,
 				7EE2DA931E30C5F500723B88 /* AppDelegate.m in Sources */,
 				7EE2DA901E30C5F500723B88 /* main.m in Sources */,
+				7E3C8F951E30CCDA00F41D68 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +508,7 @@
 				7EE2DABA1E30C5F600723B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EE2DABB1E30C5F600723B88 /* Build configuration list for PBXNativeTarget "Employee_SQLITETests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				7EE2DABD1E30C5F600723B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EE2DABE1E30C5F600723B88 /* Build configuration list for PBXNativeTarget "Employee_SQLITEUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				7EE2DAC01E30C5F600723B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

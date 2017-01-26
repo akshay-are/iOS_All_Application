@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *idtext;
+
+@property (weak, nonatomic) IBOutlet UITextField *nametext;
+
+@property (weak, nonatomic) IBOutlet UITextField *depttext;
+
+- (IBAction)insert:(id)sender;
+- (IBAction)search:(id)sender;
+- (IBAction)update:(id)sender;
+- (IBAction)deletebtn:(id)sender;
+
+
 
 @end
 
