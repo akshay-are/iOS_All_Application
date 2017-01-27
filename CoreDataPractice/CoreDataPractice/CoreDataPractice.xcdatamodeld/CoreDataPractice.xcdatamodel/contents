@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Company" representedClassName="Company" syncable="YES">
+        <attribute name="compid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="companycontaindept" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Department" inverseName="deptworkforcomp" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="deptid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deptname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deptcontainemp" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="empworkin" inverseEntity="Employee" syncable="YES"/>
+        <relationship name="deptworkforcomp" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="companycontaindept" inverseEntity="Company" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES">
+        <attribute name="empdept" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empfname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="emplname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="empworkin" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Department" inverseName="deptcontainemp" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Employee" positionX="-65" positionY="-153" width="128" height="118"/>
+        <element name="Department" positionX="160" positionY="36" width="128" height="103"/>
+        <element name="Company" positionX="-63" positionY="216" width="128" height="88"/>
+    </elements>
+</model>
